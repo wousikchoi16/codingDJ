@@ -8,4 +8,10 @@
 #      -> 'Hello\nPython'
 # 3) 한국문자열 출력 에러나는 경우: UTF-8로 저장 확인 
 
+# 9.4 심사문제
+s = ''''Python' is a "programming language"
+that lets you work quickly
+and
+integrate systems more effectively. '''
+print(s)
 
