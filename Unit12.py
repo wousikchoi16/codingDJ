@@ -9,6 +9,12 @@
 # 3) 키 (not) in 딕셔너리 
 # 예시: lux = {'health': 490} 'heal' not in lux -> False
 # 4) key가 중복되면 가장 뒤에 있는 값만 사용함. 
-lux = {'health': 490, 'health': 800}
-print(lux)
+# lux = {'health': 490, 'health': 800}
+# print(lux)
+
+# 12.5 심사문제 
+x = list(input().split())
+y = map(float,list(input().split()))
+d = dict(zip(x,y))
+print(d)
 
