@@ -11,11 +11,17 @@ import turtle as t
 # t.forward(100)
 # t.mainloop()
 
-n = 6
+# n = 6
+# t.shape('turtle')
+# t.color('red')
+# t.begin_fill()
+# for i in range(n):
+#     t.forward(900)
+#     t.right
+# t.end_fill()
+
 t.shape('turtle')
-t.color('red')
-t.begin_fill()
-for i in range(n):
-    t.forward(100)
-    t.right
-t.end_fill()
+t.speed('fastest')
+for i in range(300):
+    t.forward(i)
+    t.right(91)
