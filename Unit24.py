@@ -8,6 +8,12 @@ print('apple pear grape '.split())
 print('-'.join(['apple', 'pear', 'grape']))
 # 4) 소문자를 대문자로 바꾸기: upper() vs lower()
 # 5) 공백 삭제하기: lstrip(), rstrip(), strip()
-#  
+# 6) 특정문자 삭제하기: lstrip(',.'), rstrip(',.'), strip(',.')
+# 예시 
+import string
+print(', python. '.strip(string.punctuation + ' '))
+print(string.punctuation)
+print(', python. '.strip(string.punctuation).strip())
+print(', python. '.strip(',.').strip()) # 왜.사라지지 않는가?
 
 
