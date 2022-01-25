@@ -40,3 +40,13 @@ print('apple pineapple'.find('xy')) # 찾을문자열이 없는 경우는 -1임.
 # 동일한 문자열이더라도 오른쪽에 있는 문자열을 찾게되고, 리턴은 위치자리수를 함(왼쪽자리0을 기준으로 계산)
 print('apple pineapple'.rfind('pl'))
 print('apple pineapple'.find('xy')) # 찾을문자열이 없는 경우는 -1임. 
+# 12) 문자열 위치 찾기: index('찾을문자열'), rindex('찾을문자열') 
+# index: 같은 문자열이 여러개일 경우 처음 찾은 문자열의 인덱스를 반환함. 
+# find, rfind와 차이는 문자열이 없으면 에러를 발생시킴. 
+print('apple pineapple'.index('pl'))
+print('apple pineapple'.rindex('pl'))
+# print('apple pineapple'.index('xy')) #에러발생
+
+# 13) 문자열 개수 세기: count('문자열')
+print('apple pineapple'.count('pl'))
+
