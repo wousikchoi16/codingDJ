@@ -15,5 +15,10 @@ print(', python. '.strip(string.punctuation + ' '))
 print(string.punctuation)
 print(', python. '.strip(string.punctuation).strip())
 print(', python. '.strip(',.').strip()) # 왜.사라지지 않는가?
+# 7) 문자열을 정해진 칸맞춰서 정렬하기: ljust(10), rjust(10), center(10)왼쪽을더많이비움
+print('python'.ljust(10))
+print('python'.rjust(10))
+print('python'.center(10))
 
-
+# 8) 메서드 체이닝(method chaining): 문자열method는 처리한 결과를 반환하기 때문에 method chaining가능.
+print('pyhton'.rjust(10).upper())
